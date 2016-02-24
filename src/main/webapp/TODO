@@ -1,0 +1,43 @@
+# zwei Typ-templates
+# ablauf
+# events
+# radiobuttons
+
+// Types siehe mail
+// blind_fix(zeit für code, kein Limit für Frage, aber messen)
+// clear_open([zeit für Frage, messen!, ohne Ok-> timeout ohne Antwort], muss weiter klicken)
+// blind_open(code ohne Limit, frage messen ohne Limit)
+// clear_fix(zeit für Frage, auswählen vor Timeout)
+
+# implementieren der 4 pageTypes
+# explanation page implementieren
+# event triggern zum laufen bringen
+# countdown implementieren
+# entfernen von dead code
+
+# woher kommt die authenification
+# was mach ich beim hash-change (beim laden der index-seite automatisch prüfen, welche Seite geladen wird)
+# event storage
+
+high prio
+# feedback (growl)
+# syntax highlighting (syntax highlighter)
+# bei nav-events (#-changes) # wieder resetten und notice anzeigen
+# deprecated code aus den pageRenderern entfernen
+
+medium prio
+# IO Helper + events implementieren (inkl. persistierung auf platte)
+# authentification
+
+low prio
+# pageRenderer anpassen
+# questions in random order
+
+
+# Constructoren überflüssig machen über static builder-methoden
+
+
+# scala-code getrennt einlesen
+# html-escape vornehmen
+- server auf alten Stand wieder aufsetzen
+- daten auswerten
