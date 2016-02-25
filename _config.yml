@@ -1,0 +1,7 @@
+# Site settings
+baseurl: "/candle"
+
+# Build settings
+markdown: kramdown
+permalink: :categories/:year/:title/
+
