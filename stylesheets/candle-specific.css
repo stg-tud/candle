@@ -3,3 +3,7 @@
   background-repeat: no-repeat;
   padding-left: 35px;
 }
+
+.inner {
+	max-width: 680px;
+}
