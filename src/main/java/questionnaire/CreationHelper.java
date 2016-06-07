@@ -24,7 +24,7 @@ import com.google.inject.Inject;
 public class CreationHelper {
 
     // private static final String STUDY_NAME = "REScala";
-    private static final String STUDY_NAME = "REScala2";
+    private static final String STUDY_NAME = "testStudy";
 
     private final IOHelper ioHelper;
 

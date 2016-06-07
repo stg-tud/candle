@@ -1,0 +1,18 @@
+{
+	"id": "intro1",
+	"title": "Who are you?",
+	"description": "Please provide some information about yourself.",
+
+	"taskType": {
+		"questionTime": 15,
+		"isMeasured": true
+	},
+	
+	"code": "",
+
+	"question": "What is you current position?",
+	"answer": "-",
+	"options": [
+		"Student", "Researcher", "Industry"
+	]
+}

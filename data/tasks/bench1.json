@@ -1,0 +1,19 @@
+{
+	"id": "bench1",
+	"title": "Ungraded question",
+	"description": "Please answer the following question.",
+
+	"taskType": {
+		"questionTime": 15,
+		"isMeasured": true
+	},
+	"answerType": "MULTIPLE_CHOICE",
+
+	"code": "",
+
+	"question": "What is in between 'a' and 'c'?",
+	"answer": "b",
+	"options": [
+		"a", "b", "c"
+	]
+}

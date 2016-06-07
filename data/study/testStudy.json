@@ -1,0 +1,7 @@
+{
+	"name": "testStudy",
+	"intro": ["intro1", "bench1"],
+	"exit": ["exit1"],
+	"oop": ["task1-a"],
+	"rp": ["task1-b"]
+}

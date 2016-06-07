@@ -1,0 +1,16 @@
+{
+	"id": "exit1",
+	"title": "You are done!",
+	"description": "We are listening!",
+
+	"answerType": "FREE_TEXT",
+	"taskType": {
+		"isOpen": true
+	},
+
+	"code" : "",
+	
+	"question": "Please tell us about something...",
+	"answer": "-",
+	"options": []
+}

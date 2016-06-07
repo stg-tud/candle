@@ -1,0 +1,18 @@
+{
+	"id": "task1-b",
+	"title": "Finding 'b'!",
+	"description": "This test task challenges you to find 'b' in a list.",
+
+	"taskType": {
+		"questionTime": 15,
+		"isMeasured": true,
+		"isGraded": true
+	},
+	"answerType": "MULTIPLE_CHOICE",
+
+	"question": "What is in between 'a' and 'c'?",
+	"answer": "b",
+	"options": [
+		"a", "b", "c"
+	]
+}

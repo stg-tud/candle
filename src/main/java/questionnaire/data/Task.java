@@ -36,13 +36,13 @@ public class Task {
 
     public static class TaskType {
 
-        public boolean isOpen; // no timeout?
-        public boolean isBlind; // vs. clear
-        public boolean isMeasured; // vs. fixed
-        public boolean isGraded; // to show a warning?
+        public boolean isOpen; // no timeout
+        public boolean isBlind; // code is hidden after codeTime and only question can b seen then
+        public boolean isMeasured; // button is always there, time to completion is measured, vs. auto-completion after fixed time
+        public boolean isGraded; // shows a warning that the result is graded
 
-        public int codeTime; // time the code is shown
-        public int questionTime; // time the question is shown
+        public int codeTime; // time the code is shown (ignored if code is never hidden)
+        public int questionTime; // time the question is shown until auto-completion
 
         @Override
         public boolean equals(Object obj) {

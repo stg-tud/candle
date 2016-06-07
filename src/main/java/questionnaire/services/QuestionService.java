@@ -99,6 +99,7 @@ public class QuestionService {
             Task next = ioHelper.readTaskWithoutSolution(taskId);
             return Result.ok(next);
         } catch (Exception e) {
+            e.printStackTrace();
             return Result.fail(e);
         }
     }
